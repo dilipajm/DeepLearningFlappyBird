@@ -1,3 +1,14 @@
+#Instructions
+1. Install miniconda for Python 3.7 (https://docs.conda.io/en/latest/miniconda.html)
+2. Mac/Linux: conda create --name=flappybird python=3.7 (OR) Windows: conda create --name=flappybird python=3.7
+4. Mac/Linux: source activate flappybird (OR) Windows: activate flappybird
+6. conda install -c menpo opencv3
+7. pip install pgzero
+8. pip install tensorflow
+9. git clone https://github.com/yenchenlin/DeepLearningFlappyBird.git
+10. cd DeepLearningFlappyBird
+11. python deep_q_network.py
+
 # Using Deep Q-Network to Learn How To Play Flappy Bird
 
 <img src="./images/flappy_bird_demp.gif" width="250">
